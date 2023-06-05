@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/welcome_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Welcome to our PetVet APP"
+        android:textAlignment="center"
+        android:textSize="40sp"
+        android:textColor="#000C66"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:id="@+id/sentence"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You pamper yourself...\nNow it's time pamper your pet!"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:textColor="#000C66"
+
+        android:textStyle="italic"
+        />
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="center"
+
+        >
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#000C66"
+            android:text="log in"
+
+            />
+        <Button
+            android:id="@+id/signup_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="10dp"
+            android:backgroundTint="#000C66"
+            android:text="Sign Up"
+            />
+
+    </LinearLayout>
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Us"
+        android:layout_marginLeft="5dp"
+        android:textSize="30sp"
+        android:textColor="#A47551"
+        android:textStyle="italic"
+        />
+    <TextView
+        android:id="@+id/www"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="www.petvet.com"
+        android:layout_marginLeft="9dp"
+        android:textSize="20sp"
+        android:textColor="#A47551"
+        android:textStyle="bold"
+        />
+
+
+</LinearLayout>

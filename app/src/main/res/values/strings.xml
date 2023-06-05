@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">petvet</string>
+    <string name="choose_a_groomr">Choose a groomr:</string>
+    <string-array name="doctor_list">
+        <item>All doctors :</item>
+        <item>Dr. Raghad</item>
+        <item>Dr. Nourah</item>
+        <item>Dr. Rema</item>
+    </string-array>
+
+    <string-array name="date_list">
+        <item>All avalible dates :</item>
+        <item>June 11</item>
+        <item>June 12</item>
+        <item>June 13</item>
+    </string-array>
+
+    <string-array name="time_list">
+        <item>All avaliable times :</item>
+        <item>10:00am</item>
+        <item>11:00am</item>
+        <item>1:00pm</item>
+        <item>2:00pm</item>
+        <item>3:00pm</item>
+    </string-array>
+
+
+    <string-array name="groomer_list">
+        <item>Huda</item>
+        <item>Reema</item>
+        <item>Raghad</item>
+        <item>Nourah</item>
+    </string-array>
+
+    <string-array name="grooming_date_list">
+        <item>June 5th</item>
+        <item>June 6th</item>
+        <item>June 7th</item>
+        <item>June 8th</item>
+    </string-array>
+
+    <string-array name="grooming_time_list">
+        <item>10:00 AM</item>
+        <item>11:00 AM</item>
+        <item>1:00 PM</item>
+        <item>2:00 PM</item>
+    </string-array>
+</resources>
