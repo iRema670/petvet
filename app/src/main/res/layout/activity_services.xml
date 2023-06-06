@@ -10,12 +10,14 @@
         android:id="@+id/medical_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Book Medical Appointment" />
+        android:text="Book Medical Appointment"
+        android:backgroundTint="@color/Nevy"/>
 
     <Button
         android:id="@+id/grooming_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Book Grooming Appointment" />
+        android:text="Book Grooming Appointment"
+        android:backgroundTint="@color/Nevy"/>
 
 </LinearLayout>

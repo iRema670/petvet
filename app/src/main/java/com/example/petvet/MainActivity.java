@@ -37,17 +37,9 @@ public class MainActivity extends AppCompatActivity {
             String gName = gAccount.getDisplayName();
             userName.setText(gName);
         }
-        logout.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                gClient.signOut().addOnCompleteListener(new OnCompleteListener<Void>() {
-                    @Override
-                    public void onComplete(@NonNull Task<Void> task) {
-                        finish();
-                        startActivity(new Intent(MainActivity.this, LoginActivity.class));
-                    }
-                });
-            }
-        });
+        logout.setOnClickListener(view -> gClient.signOut().addOnCompleteListener(task -> {
+            finish();
+            startActivity(new Intent(MainActivity.this, LoginActivity.class));
+        }));
     }
 }

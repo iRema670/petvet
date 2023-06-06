@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:78022730748:android:0864c7f4008f38aae34879",
         "android_client_info": {
-          "package_name": "com.example.lab4"
+          "package_name": "com.example.petvet"
         }
       },
       "oauth_client": [

@@ -15,7 +15,7 @@
             android:name=".dialog_forgot"
             android:exported="false" />
         <activity
-            android:name=".SignUp"
+            android:name=".SignUpActivity"
             android:exported="false" />
         <activity
             android:name=".LoginActivity"

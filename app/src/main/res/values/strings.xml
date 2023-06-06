@@ -1,6 +1,14 @@
 <resources>
     <string name="app_name">petvet</string>
     <string name="choose_a_groomr">Choose a groomr:</string>
+    <string name="Fname">First name</string>
+    <string name="lname">Last name</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="signup_sugession">Not yet registered? Sign Up</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="loginbtn">Login</string>
     <string-array name="doctor_list">
         <item>All doctors :</item>
         <item>Dr. Raghad</item>
@@ -16,7 +24,7 @@
     </string-array>
 
     <string-array name="time_list">
-        <item>All avaliable times :</item>
+        <item>All available times :</item>
         <item>10:00am</item>
         <item>11:00am</item>
         <item>1:00pm</item>
